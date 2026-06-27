@@ -1,0 +1,71 @@
+Loaded 1 tasks
+2026-06-27 17:40:07,210 - base.py - 780 - INFO - ALL tokens: 52, Available tokens: 57869
+2026-06-27 17:43:00,686 - base.py - 780 - INFO - ALL tokens: 296, Available tokens: 57869
+2026-06-27 17:45:19,161 - base.py - 780 - INFO - ALL tokens: 756, Available tokens: 57869
+2026-06-27 17:47:46,023 - base.py - 780 - INFO - ALL tokens: 52, Available tokens: 57869
+2026-06-27 17:48:06,724 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:48:07,667 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:48:07,679 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:48:07,692 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:48:07,705 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:48:07,718 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:48:07,730 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:48:07,743 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:48:07,756 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:48:07,768 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:48:07,781 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:48:07,794 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:48:07,807 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:48:07,819 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:48:07,832 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:48:07,845 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:48:07,857 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:48:07,870 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:48:07,883 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:48:07,895 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:48:07,908 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:48:07,921 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:48:07,933 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:48:07,946 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:48:07,959 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:48:07,972 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:48:07,984 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:48:07,997 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:48:08,010 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:51:01,943 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:51:01,958 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:51:01,972 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:51:01,986 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:51:02,000 - nous_fncall_prompt.py - 216 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:51:02,242 - utils.py - 91 - WARNING - Traceback (most recent call last):
+  File "/cpfs01/pnx/Qwen-Agent/qwen_agent/tools/python_executor.py", line 131, in call
+    params = json5.loads(params)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/json5/lib.py", line 205, in loads
+    raise ValueError(err)
+ValueError: <string>:1 Unexpected end of input at column 228
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/cpfs01/pnx/Qwen-Agent/qwen_agent/utils/utils.py", line 293, in extract_code
+    text = json5.loads(text)['code']
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/json5/lib.py", line 205, in loads
+    raise ValueError(err)
+ValueError: <string>:1 Unexpected end of input at column 228
+
+2026-06-27 17:51:02,465 - base.py - 780 - INFO - ALL tokens: 588, Available tokens: 57869
+2026-06-27 17:51:02,476 - nous_fncall_prompt.py - 58 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:54:13,173 - base.py - 780 - INFO - ALL tokens: 734, Available tokens: 57869
+2026-06-27 17:54:13,185 - nous_fncall_prompt.py - 58 - WARNING - Invalid json tool-calling arguments
+2026-06-27 17:56:21,194 - base.py - 780 - INFO - ALL tokens: 1221, Available tokens: 57869
+2026-06-27 17:56:21,207 - nous_fncall_prompt.py - 58 - WARNING - Invalid json tool-calling arguments
+  [1/1] dat_pat_q01 type=keyhole gt=A pred=C tools=7 X
+
+========== Summary ==========
+Total: 1  Correct: 0  Accuracy: 0.0000
+By vqa_type:
+  keyhole              0/1  acc=0.0000
+Summary -> benchmark/vqa_mcq/_agent_smoke_summary.json
+Results -> benchmark/vqa_mcq/_agent_smoke.jsonl
