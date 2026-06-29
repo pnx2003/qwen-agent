@@ -17,7 +17,7 @@ benchmark/upload_file/*
 benchmark/upload_file_clean/*
 benchmark/eval_data/
 Qwen-Agent
-
+infer_results
 docqa/*
 log/*
 log.jsonl

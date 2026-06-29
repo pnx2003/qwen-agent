@@ -1,0 +1,7 @@
+{
+  "n": 10,
+  "correct": 2.0,
+  "accuracy": 0.2,
+  "model_name": "openai/gpt-5.4",
+  "data_path": "/cpfs01/pnx/AgentFlow/data/data_pat_spatial_folding_vqa/dat_pat_spatial_folding_vqa.jsonl"
+}

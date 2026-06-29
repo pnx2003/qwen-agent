@@ -140,8 +140,8 @@ class TextChatAtOAI(BaseFnCallModel):
                                     full_tool_calls.append(
                                         Message(role=ASSISTANT,
                                                 content='',
-                                                function_call=FunctionCall(name=tc.function.name,
-                                                                           arguments=tc.function.arguments),
+                                                function_call=FunctionCall(name=tc.function.name or '',
+                                                                           arguments=tc.function.arguments or ''),
                                                 extra={'function_id': tc.id}))
 
                         res = []

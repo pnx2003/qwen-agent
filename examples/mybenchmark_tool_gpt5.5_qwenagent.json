@@ -1,0 +1,29 @@
+{
+  "benchmark_name": "dat_pat_spatial_folding_vqa_tool",
+  "model_name": "openai/gpt-5.4",
+  "api_key": "sk-c54d0aac90b3b98aea8289e4401a7c1de4e89214b90712358f6063ace6961201",
+  "base_url": "https://openai.sufy.com/v1",
+  "max_turns": 40,
+  "max_retries": 3,
+  "sandbox_timeout": 300,
+  "vision": false,
+  "available_tools": ["sandbox_python"],
+  "dataset_source": "local",
+  "data_path": "/cpfs01/pnx/AgentFlow/data/data_pat_spatial_folding_vqa/dat_pat_spatial_folding_vqa.jsonl",
+  "system_prompt": [
+    "## Available Tools",
+    "1. **sandbox_python** - Execute Python code in a sandboxed namespace",
+    "   - Accepts Python code as a string (param: `code`)",
+    "   - Pre-installed: pandas, numpy, scipy, sklearn, matplotlib, seaborn, cv2, PIL",
+    "   - Task images are in the working directory: open by filename, e.g.",
+    "     `from PIL import Image; img = Image.open('dat_pat_q01.png')`",
+    "   - Saved figures (plt.savefig) are returned to you",
+    "   - Use this for image analysis, calculations, and code execution",
+    ""
+  ],
+  "evaluate_results": true,
+  "evaluation_metric": "my_mcq",
+  "output_dir": "infer_results/dat_pat_spatial_folding_vqa/gpt5.4/qwen_agent_sandbox",
+  "save_results": true,
+  "save_trajectories": true
+}
